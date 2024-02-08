@@ -15,7 +15,13 @@
     margin-bottom: 30px;
     margin-top: 20px;
     font-size: 1.25rem;
-    
+
+}
+
+.our {
+    color: rgb(19, 19, 19);
+    font-weight: 700;
+    font-size: 2.5rem;
 }
 
 /* header styles start */
@@ -59,9 +65,10 @@ nav>ul>li>a {
 }
 
 /* banner styles*/
-.banner img{
+.banner img {
     width: 100%;
 }
+
 .banner-content {
     max-width: 862px;
     text-align: center;
@@ -75,48 +82,86 @@ nav>ul>li>a {
 
 /* features section under of main section */
 
-main{
+main {
     max-width: 1440px;
     margin: 0 auto;
 }
+
 /* team styles start */
-.team-container{
+.team-container {
     display: flex;
     align-items: center;
     margin-top: 85px;
 }
-.team-img-container{
+
+.team-img-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
 }
-.team-img-container img{
-    
-}
+
+.team-img-container img {}
+
 /* team content styles */
 
-.team-content{
-   padding-right: 73px;
-   padding-left: 74px;
+.team-content {
+    padding-right: 73px;
+    padding-left: 74px;
 }
-.quick-list{
-    color:rgb(114, 114, 114) ; 
+
+.quick-list {
+    color: rgb(114, 114, 114);
     font-weight: 500;
     font-size: 2.8rem;
 }
-.our{
-    color: rgb(19, 19, 19);
-    font-weight: 700;
-    font-size: 2.5rem;
-}
-.features{
-    color:rgb(255, 144, 14) ;
+.features {
+    color: rgb(255, 144, 14);
     font-weight: 700;
     font-size: 2.8rem;
 }
-.teams-description{
+
+.teams-description {
     color: rgb(114, 114, 114);
 }
+
+
+
+
+/* start facts section */
+
+
+
+
+/* card section style */
+.card-section{
+    display: flex;
+    justify-content: space-around;
+}
+.card-container{
+    border: 1px solid rgb(71, 255, 111);
+    border-radius: 8px;
+    text-align: center;
+    padding:30px;
+}
+.card-static{
+    font-size: 2.8rem;
+    color: #424242;
+    /* font-weight: 600; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card-description{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: rgb(114, 114, 114);
+    margin-top: 5px;
+
+}
+
+
+
+
+
 
 
 
@@ -125,38 +170,47 @@ main{
 
 /* started responsive style */
 @media screen and (max-width:576px) {
-    nav, .team-container {
+
+    nav,
+    .team-container {
         flex-direction: column;
     }
-    header{
+
+    header {
         padding: 20px;
     }
-    nav ul{
+
+    nav ul {
         /* flex-direction: column; */
     }
-    .team-content{
+
+    .team-content {
         padding-right: 20px;
         padding-left: 20px;
     }
-    .team-img-container{
+
+    .team-img-container {
         grid-template-columns: 1fr;
     }
 }
 
 /* mideum divices responsive styles */
 @media screen and (min-width:577px) and (max-width:960px) {
-    nav, .team-container{
+
+    nav,
+    .team-container {
         flex-direction: column;
     }
-    .team-content{
+
+    .team-content {
         padding-left: 35px;
         padding-right: 35px;
     }
-    header{
+
+    header {
         padding: 50px;
     }
-    .btn-primary{
-       padding:  550 auto;
-    }
-
 }
+
+
+
